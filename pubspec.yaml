@@ -21,7 +21,7 @@ dependencies:
   network_info_plus: ^4.1.0
   permission_handler: ^11.0.0
   video_player: ^2.8.1
-  font_awesome_flutter: ^10.7.0
+  font_awesome_flutter: 10.7.0
   path_provider: ^2.1.1
   share_plus: ^7.0.1
   chewie: ^1.5.2
@@ -36,11 +36,7 @@ dev_dependencies:
   flutter_launcher_icons: ^0.13.1
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
-
-# Paksa penyesuaian dependensi agar IconData tidak error
-dependency_overrides:
-  font_awesome_flutter: 10.7.0
+  flutter_lints: ^3.0.0
 
 flutter_launcher_icons:
   android: true
