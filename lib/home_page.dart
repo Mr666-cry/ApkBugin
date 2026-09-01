@@ -381,7 +381,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
           ),
           const SizedBox(width: 10),
           Text(
-            'SAMSINFINITY CRASHER,
+          'SAMSINFINITY CRASHER',
+          
             style: TextStyle(
               color: theme.textPrimaryColor,
               fontFamily: 'Orbitron',
