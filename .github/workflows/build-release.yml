@@ -26,8 +26,10 @@ jobs:
           flutter-version: 'any'
           cache: true
 
-      - name: Install Dependencies
-        run: flutter pub get
+      - name: Clean & Get Dependencies
+        run: |
+          flutter clean
+          flutter pub get
 
       - name: Build Release APK
         run: flutter build apk --release --split-per-abi --android-skip-build-dependency-validation
